@@ -1,0 +1,29 @@
+﻿<Window x:Name="CreatureScaling" x:Class="CreatureScaling.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CreatureScaling"
+        mc:Ignorable="d"
+        Title="Creature Scaling" Height="179.848" Width="593.765" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="inCR" HorizontalAlignment="Left" Height="24" Margin="54,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51" BorderThickness="2" TabIndex="1" TextAlignment="Center" ToolTip=""/>
+        <Label x:Name="lblCr" Content="CR:" HorizontalAlignment="Left" Margin="22,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224" Height="24"/>
+        <TextBox x:Name="outProf" HorizontalAlignment="Left" Height="24" Margin="19,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" BorderThickness="2" TabIndex="2" TextAlignment="Center" ToolTip="" IsReadOnly="True" IsTabStop="False"/>
+        <Label x:Name="lblCR_Copy" Content="Prof Bonus:" HorizontalAlignment="Left" Margin="19,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224"/>
+        <TextBox x:Name="outArmor" HorizontalAlignment="Left" Height="24" Margin="94,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" BorderThickness="2" TabIndex="3" TextAlignment="Center" ToolTip="" IsReadOnly="True" IsTabStop="False"/>
+        <Label x:Name="lblCR_Copy1" Content="Armor Class:" HorizontalAlignment="Left" Margin="94,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224"/>
+        <TextBox x:Name="outHP" HorizontalAlignment="Left" Height="24" Margin="175,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" BorderThickness="2" TabIndex="4" TextAlignment="Center" ToolTip="" IsReadOnly="True" IsTabStop="False"/>
+        <Label x:Name="lblCR_Copy2" Content="Hit Points:" HorizontalAlignment="Left" Margin="175,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224"/>
+        <TextBox x:Name="outAttack" HorizontalAlignment="Left" Height="24" Margin="244,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" BorderThickness="2" TabIndex="5" TextAlignment="Center" ToolTip="" IsReadOnly="True" IsTabStop="False"/>
+        <Label x:Name="lblCR_Copy3" Content="Attack Bonus:" HorizontalAlignment="Left" Margin="244,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224"/>
+        <TextBox x:Name="outDmg" HorizontalAlignment="Left" Height="24" Margin="331,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" BorderThickness="2" TabIndex="6" TextAlignment="Center" ToolTip="" IsReadOnly="True" IsTabStop="False"/>
+        <Label x:Name="lblCR_Copy4" Content="Damage/Round: " HorizontalAlignment="Left" Margin="331,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224"/>
+        <TextBox x:Name="outSave" HorizontalAlignment="Left" Height="24" Margin="435,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" BorderThickness="2" TabIndex="7" TextAlignment="Center" ToolTip="" IsReadOnly="True" RenderTransformOrigin="0.235,-1.994" IsTabStop="False"/>
+        <Label x:Name="lblCR_Copy5" Content="Save DC:" HorizontalAlignment="Left" Margin="435,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224"/>
+        <TextBox x:Name="outXp" HorizontalAlignment="Left" Height="24" Margin="496,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="69" BorderThickness="2" TabIndex="8" TextAlignment="Center" ToolTip="" IsReadOnly="True" IsTabStop="False"/>
+        <Label x:Name="lblCR_Copy6" Content="Experience:" HorizontalAlignment="Left" Margin="496,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.127,0.224"/>
+        <Button x:Name="btnScale" Content="Scale" HorizontalAlignment="Left" Margin="133,98,0,0" VerticalAlignment="Top" Width="432" Height="29" Click="btnScale_Click"/>
+
+    </Grid>
+</Window>
